@@ -1,6 +1,11 @@
 <?php
 session_start();
+require_once '../includes/session.php';
+require_once '../config/db.php';
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    require_once '../includes/auth.php';
+}
 ?>
 
 
@@ -14,7 +19,7 @@ session_start();
 </head>
 <body>
 <main class="login-wrapper">
-  <form class="login-card" method="POST" action="../includes/auth.php">
+  <form class="login-card" method="POST" action="">
   <img src="assets/img/ccr_metro_bahia.png" alt="">
   <br><br>
     <h2>Login</h2>
