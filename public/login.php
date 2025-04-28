@@ -30,7 +30,7 @@ session_start();
     <input type="password" id="senha" name="senha" required>
 
     <button type="submit" class="btn-login">Entrar</button>
-    <a href="../index.php" class="back-link">← Voltar</a>
+    <a href="index.php" class="back-link">← Voltar</a>
   </form>
 </main>
 </body>
