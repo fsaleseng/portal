@@ -15,7 +15,7 @@
             Inteligência aplicada à manutenção metroviária.<br>
             Explore cenários, dados e estratégias com tecnologia.<br><br>
         </p>
-        <a href="public/login.php" class="btn-entrar">Acessar</a>
+        <a href="login.php" class="btn-entrar">Acessar</a>
     </div>
 </main>
 </body>
