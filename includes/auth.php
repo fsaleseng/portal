@@ -1,6 +1,7 @@
 <?php
-require_once '../config/db.php';
 require_once 'session.php';
+require_once '../config/db.php';
+
 
 $erros = [];
 
