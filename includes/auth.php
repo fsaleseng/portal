@@ -24,11 +24,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'usuario' => $user['usuario'],
         'tipo' => $user['tipo']
       ];
-      header('Location: ../public/portal.php');
+      header('Location: /portal.php');
       exit();
     }  else {
         $_SESSION['login_error'] = "Usuário ou senha inválidos.";
-        header("Location: ../public/login.php");
+        header("Location: /login.php");
     }
   }
 }
