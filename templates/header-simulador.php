@@ -33,7 +33,7 @@ $id = $_SESSION['usuario']['id'];
     <link href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.css" rel="stylesheet">
 
     <!-- Seu CSS Customizado -->
-    <link href="../public/assets/css/style-simulador.css" rel="stylesheet">
+    <link href="/assets/css/style-simulador.css" rel="stylesheet">
 
     <!-- JavaScript: Bibliotecas principais (ordem crítica) -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
