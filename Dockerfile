@@ -9,4 +9,4 @@ COPY . /app
 EXPOSE 8000
 
 # Altere o CMD para isso:
-CMD ["php", "-S", "0.0.0.0:8000", "-t", "public", "public/portal.php"]
+CMD ["php", "-S", "0.0.0.0:8000", "-t", "public"]
