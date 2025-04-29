@@ -17,7 +17,7 @@ function is_gerente() {
 
 function verificaLogin() {
     if (!is_logged_in()) {
-        header('Location: ../public/login.php');
+        header('Location: /login.php');
         exit();
     }
 }
